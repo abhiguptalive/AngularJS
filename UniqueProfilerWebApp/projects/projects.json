@@ -1,0 +1,539 @@
+{
+  "featured": "UniqueProfiler.com",
+  "projects": [
+    {
+      "name": "Shortkeys for Chrome",
+      "thumb": "shortkeys-chrome/thumb.png",
+      "desc": "UniqeProfiler.com is the best company which Creates Profile for Professionals and Non Professionals,Students,Company and Industries.",
+      "url": "#",
+      "src": "#",
+      "submitter": "Abhishek Kumar Gupta",
+      "submissionDate": "2014-08-24",
+      "tags": [
+        "Chrome",
+        "Extension",
+        "Open Source",
+        "Local Storage",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Memory Game",
+      "thumb": "memory-game/thumb.png",
+      "desc": "Simple implementation of the memory game using HTML5 and CSS transitions.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
+      "tags": [
+        "Demo",
+        "Game",
+        "Animations",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "PhoneCat",
+      "thumb": "phonecat/thumb.png",
+      "desc": "Android phone and tablet gallery — the AngularJS tutorial app. Learn how to build apps with AngularJS from scratch by following this tutorial!",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
+      "tags": [
+        "Demo",
+        "CRUD",
+        "Bootstrap",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "wReader",
+      "thumb": "wreader/thumb.png",
+      "desc": "Fancy HTML5 RSS Reader.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
+      "tags": [
+        "Demo",
+        "Animations",
+        "Bootstrap",
+        "jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "PeepCode Tunes",
+      "thumb": "peepcode-tunes/thumb.png",
+      "desc": "Simple HTML5 music player. Ported from Backbone.js to AngularJS.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
+      "tags": [
+        "Demo",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "docs.angularjs.org",
+      "thumb": "angularjs-docs/thumb.png",
+      "desc": "Docs viewer app for AngularJS apis.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
+      "tags": [
+        "Production",
+        "Bootstrap",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "www.jobs.cz",
+      "thumb": "jobs-cz/thumb.png",
+      "desc": "Standardized college admission testing site for Universities in Czech Republic.",
+      "url": "index.html",
+      "submitter": "abtris",
+      "submissionDate": "2012-06-01",
+      "tags": [
+        "Production",
+        "CRUD",
+        "jQuery",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "PubNub Chat",
+      "thumb": "pubnub-chat/thumb.png",
+      "desc": "Blazing fast real-time messaging using PubNub and AngularJS.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "Nolan Dubeau",
+      "submissionDate": "2012-06-12",
+      "tags": [
+        "Demo",
+        "Open Source",
+        "Web Sockets",
+        "Bootstrap",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "DoubleClick",
+      "thumb": "doubleclick/thumb.png",
+      "desc": "DoubleClick Digital Marketing Manager and other DoubleClick Digital Marketing Platform applications are used by thousands of marketers and agencies worldwide.",
+      "url": "index.html",
+      "submitter": "igorminar",
+      "submissionDate": "2012-06-14",
+      "tags": [
+        "Production",
+        "CRUD",
+        "Google Closure",
+        "jQuery",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "Sliding puzzle",
+      "thumb": "sliding-puzzle/thumb.png",
+      "desc": "Simple sliding puzzle game",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "pdanis",
+      "submissionDate": "2012-06-14",
+      "tags": [
+          "Demo",
+          "Game",
+          "No jQuery",
+          "Open Source",
+          "Tests Included"
+      ]
+    },
+    {
+      "name": "Balance Projector",
+      "thumb": "balance-projector/thumb.png",
+      "desc": "Balance Projector can provide quick insights into your immediate financial future. The real time interface updates on every change and makes somewhat abstract numbers very tangible.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "kohlhofer",
+      "submissionDate": "2012-06-14",
+      "tags": [
+        "Production",
+        "Tool",
+        "Local Storage",
+        "No jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "Cryptography Project",
+      "thumb": "cryptography-project/thumb.png",
+      "desc": "Encrypt and decrypt any text right in your browser. You can also generate random key phrases from the list of 39,000 English words.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "kohlhofer",
+      "submissionDate": "2012-06-14",
+      "tags": [
+        "Production",
+        "Tool",
+        "Cryptography",
+        "No jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "Project Time Recorder",
+      "thumb": "ptr/thumb.png",
+      "desc": "Time sheet for recoring working hours and time allocation to projects.",
+      "url": "index.html",
+      "info": "index.html",
+      "submitter": "Paul Bininda",
+      "submissionDate": "2012-06-14",
+      "tags": [
+        "Productivity",
+        "Animations",
+        "Local Storage",
+        "jQuery",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "Twitter Search",
+      "thumb": "twitter-search/thumb.png",
+      "desc": "Search Twitter for recent tweets for any topic. Filter results by tweet, author, etc.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "ThomasBurleson",
+      "submissionDate": "2012-06-21",
+      "tags": [
+        "Demo",
+        "Productivity",
+        "Bootstrap",
+        "jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "CafeTownsend",
+      "thumb": "cafetownsend/thumb.png",
+      "desc": "CafeTownsend with AngularJS IoC",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "ThomasBurleson",
+      "submissionDate": "2012-06-21",
+      "tags": [
+        "Demo",
+        "CRUD",
+        "Coffeescript",
+        "jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "Posse",
+      "thumb": "posse/thumb.png",
+      "desc": "Posse lets you build a magical street, filled with all your favorite, real-world places, and share it with your friends to create a town. Not only will you be sharing your super amazing taste but you’ll also be discovering new awesome places and supporting a community of great retailers at the same time.",
+      "url": "index.htmlm",
+      "submitter": "hbarney",
+      "submissionDate": "2012-06-19",
+      "tags": [
+        "Production",
+        "Entertainment", "Social-Commerce",
+        "Play Framework",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "GitHub Contributors",
+      "thumb": "github-contributors/thumb.png",
+      "desc": "An application to browse through the contributors of GitHub projects. Ported from YUI 3.5 to AngularJS.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "daha",
+      "submissionDate": "2012-07-08",
+      "tags": [
+        "Demo",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "dustr",
+      "thumb": "dustr/thumb.png",
+      "desc": "Compile dust.js templates right in your browser. Uses linkedin's dustjs.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "nlaplante",
+      "submissionDate": "2012-07-04",
+      "tags": [
+        "Production",
+        "Angular", "Bootstrap",
+        "jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "tetractis-olympics",
+      "thumb": "tetractis-olympics/thumb.png",
+      "desc": "Olympics 2012 real time live data",
+      "url": "index.html",
+      "submitter": "Tetractis",
+      "submissionDate": "2012-08-02",
+      "tags": [
+        "Production",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "ERMAHGERD Translator",
+      "thumb": "ermahgerd/thumb.png",
+      "desc": "Translate text to ERMAHGERD",
+      "url": "index.html",
+      "submitter": "jmillerdesign",
+      "submissionDate": "2012-07-25",
+      "tags": [
+        "Toy",
+        "Entertainment",
+        "No jQuery"
+      ]
+    },
+    {
+      "name": "Fluid",
+      "thumb": "fluid/thumb.png",
+      "desc": "Portfolio interface with combined visualization and navigation. If you want a look at the source, just contact me.",
+      "url": "index.html",
+      "submitter": "rur",
+      "submissionDate": "2012-07-25",
+      "tags": [
+        "Portfolio",
+        "Data Vis",
+        "jQuery",
+        "Rails"
+      ]
+    },
+    {
+      "name": "SCAmp",
+      "thumb": "scamp/thumb.png",
+      "desc": "SoundCloud Playlist Manager",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "beshrkayali",
+      "submissionDate": "2012-07-28",
+      "tags": [
+        "Toy",
+        "Entertainment",
+        "Local Storage",
+        "jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "Awesome New Tab Page",
+      "thumb": "awesome-new-tab-page/thumb.png",
+      "desc": "An extensible new tab page for Google Chrome. Awesome, like you.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "michaelhart",
+      "submissionDate": "2012-07-20",
+      "tags": [
+        "Production",
+        "Productivity", "Extension",
+        "Local Storage", "FileSystem API",
+        "jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "UniqueProfiler.com",
+      "thumb": "yt-ps3/thumb.png",
+      "desc": "UniqeProfiler.com is the best company which Creates Profile for Professionals and Non Professionals,Students,Company and Industries.",
+      "url": "index.html",
+      "info": "index.html",
+      "submitter": "Abhishek Kumar Gupta",
+      "submissionDate": "2014-08-14",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "Animations", "Local Storage", "Innovation",
+        "Google APIs","Javascript",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "ONS FloorPlan",
+      "thumb": "ons-floorplan/thumb.png",
+      "desc": "The official app for ONS 2012, one of the world's leading meeting places for the global energy industry.",
+      "url": "index.html",
+      "info": "index.html",
+      "submitter": "fkalseth",
+      "submissionDate": "2012-08-16",
+      "tags": [
+        "Production",
+        "Business",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "Goodfilms Mobile Site",
+      "thumb": "goodfilms-mobile/thumb.png",
+      "desc": "The mobile-optimised interface for Goodfilms - a new, social movie review site",
+      "url": "index.html",
+      "info": "index.html",
+      "submitter": "goodfilms",
+      "submissionDate": "2012-24-8",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "Animations", "Zepto", "Flickable.js",
+        "No jQuery",
+        "Mobile"
+      ]
+    },
+    {
+      "name": "Lokaligo",
+      "thumb": "lokaligo/thumb.png",
+      "desc": "Online localization and translation management platform.",
+      "url": "index.html",
+      "submitter": "armatys",
+      "submissionDate": "2012-08-22",
+      "tags": [
+        "Production",
+        "Productivity",
+        "FileAPI",
+        "No jQuery",
+        "Localization"
+      ]
+    },
+    {
+      "name": "Provok.in",
+      "thumb": "provok-in/thumb.png",
+      "desc": "Prove your point. State an affirmation, back it up with evidence, unveil the truth.",
+      "url": "index.html",
+      "info": "index.html",
+      "submitter": "PuerkitoBio",
+      "submissionDate": "2012-08-20",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "Animations", "Bootstrap",
+        "No jQuery"
+      ]
+    },
+    {
+      "name": "STOIC",
+      "thumb": "stoic/thumb.png",
+      "desc": "STOIC turns your Google Spreadsheets into complete applications, with a cloud-class database in the back-end, and a user interface for mobile devices.",
+      "url": "index.html",
+      "info": "index.html",
+      "submitter": "ghalimi",
+      "submissionDate": "2012-09-25",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Node.js", "Twitter Bootstrap", "Google Apps",
+        "jQuery"
+
+      ]
+    },
+    {
+      "name": "angular-google-maps",
+      "thumb": "angular-google-maps/thumb.png",
+      "desc": "Google Maps inside your angular.js application",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "nlaplante",
+      "submissionDate": "2012-08-30",
+      "tags": [
+          "Production",
+          "Component",
+          "Google Maps API v3",
+          "Open Source"
+          ]
+    },
+    {
+      "name": "CPresent",
+      "thumb": "cpresent/thumb.png",
+      "desc": "A simplified, web-based Church presentation system",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "jaitaiwan",
+      "submissionDate": "2012-10-01",
+      "tags": [
+          "jQuery","socket.io","Production","Open Source","HTML5","CSS3","bootstrap-js"
+      ]
+    },
+    {
+      "name": "Bingo Card Club",
+      "thumb": "bingo-card-club/printable-bingo-card-creator.png",
+      "desc": "The best printable bingo card creator. Generate randomized bingo cards! Try the Make and Print dashboard, created using AngularJS.",
+      "info": "index.html",
+      "url": "index.html",
+      "submitter": "vlad",
+      "submissionDate": "2012-10-03",
+      "tags": [
+        "Production",
+        "Game",
+        "Productivity",
+        "jQuery",
+        "Rails",
+        "Component"
+      ]
+    },
+    {
+      "name": "Kodigon",
+      "thumb": "kodigon/thumb.png",
+      "desc": "Kodigon is a web application which encode and decode (if possible) string in many algorithm formats lke Base64, MD5, SHA1, etc. It's an example of AngularJS use.",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "yrezgui",
+      "submissionDate": "2012-10-06",
+      "tags": [
+        "Demo",
+        "Productivity",
+        "Zurb Foundation", "Encoding", "Decoding", "Hashing",
+        "No jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "eTuneBook",
+      "thumb": "etunebook/thumb.png",
+      "desc": "Abc Tunebook Manager",
+      "url": "index.html",
+      "src": "index.html",
+      "submitter": "boxplayer",
+      "submissionDate": "2012-10-12",
+      "tags": [
+        "Production",
+        "Abc Notation",
+        "abcjs", "Twitter Bootstrap", "FileReader", "Local Storage", "AppCache", "jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "FolderChute",
+      "thumb": "folderchute/FolderChute.png",
+      "desc": "My cloud to your... in seconds",
+      "url": "index.html",
+      "submitter": "MarkBennett",
+      "submissionDate": "2012-10-15",
+      "tags": [
+        "jQuery","Production","Open Source","HTML5",
+        "CSS3","bootstrap-js",
+        "Ruby on Rails","Ruby","Mover.io","Productivity"
+      ]
+    }
+  ]
+}
