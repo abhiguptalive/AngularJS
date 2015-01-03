@@ -41,7 +41,7 @@ eventsApp.controller('EventController',
 					upVoteCount: 80
 				}
 			]
-		}
+		};
 
 
 
