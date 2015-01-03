@@ -33,11 +33,13 @@
 <!-- Begin Navigation -->		
 		<div class="navbar">
 			<div class="navbar-inner">
-				<ul>
+				<ul class ="nav">
+					<li><a href = "EventDetails.html">Home</a></li>
+					<li><a href="NewEvent.html">Create Event</a></li>
 
 
 			</ul>
-			</div><!-- /.container-fluid -->
+			</div>
 		</div>
 
 <!-- End Navigation -->
@@ -74,8 +76,20 @@
 			<hr />
 			
 			<h3>Sessions</h3>
+			Order By:
+			<select ng-model="sortorder" class="input-small">
+				<option selected value="name">Name</option>
+				<option value="-upVoteCount">Votes</option>
+			</select>
+			Show:
+			<select ng-model="query" class="input-medium">
+				<option selected value="">All</option>
+				<option value="Entertainment">Entertainment</option>
+				<option value="Competition">Competition</option>
+				<option value="Other">Other</option>
+			</select>
 			<ul class="thumbnails">
-				<li ng-repeat="session in event.sessions | orderBy:sortorder">
+				<li ng-repeat="session in event.sessions | orderBy:sortorder | limitTo: 100 | filter:query ">
 					<div class = "row session">
 						<div class="span0 well votingWidget">
 							<div class="votingButton" ng-click = "upVoteSession(session)">
