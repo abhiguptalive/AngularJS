@@ -14,7 +14,7 @@ eventsApp.controller('EventController',
 				zipcode: '560085'
 			},
 			imageURL: 'img/AatmTrisha.png',
-			
+
 			sessions: [
 				{
 					name: 'AT got Talent ',
@@ -44,12 +44,15 @@ eventsApp.controller('EventController',
 		};
 
 
-		$scope.upVoteSession = function (session) {
+
+			$scope.upVoteSession = function (session) {
 			session.upVoteCount++;
 		};
 		$scope.downVoteSession = function (session) {
 			session.upVoteCount--;
 		};
+
+
 	}
 
 );
