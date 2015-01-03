@@ -13,7 +13,7 @@ eventsApp.controller('EventController',
 				state: 'Bangalore',
 				zipcode: '560085'
 			},
-			imageURL: 'img/angularjs-logo.jpeg',
+			imageURL: 'img/AatmTrisha.png',
 			sessions: [
 				{
 					name: 'Javascript Basics',
