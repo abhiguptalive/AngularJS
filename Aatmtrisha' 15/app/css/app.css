@@ -28,3 +28,6 @@ select, textarea {
   padding-left:6px;
   cursor:pointer;
 }
+.blue{
+    color:blue;
+}

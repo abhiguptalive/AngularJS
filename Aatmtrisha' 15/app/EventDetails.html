@@ -18,6 +18,7 @@
 	<!-- ANGULAR and underscore -->
 	<script src = "lib/underscore-1.4.4.min.js"></script>
 	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular/angular-sanitize.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/controllers/EventController.js"></script>
 
@@ -44,12 +45,16 @@
 <!-- Begin Angular Stuff -->		
 		<div ng-controller="EventController">
 			<img ng-src = "{{event.imageURL}}"/>
+
 			<div class = "row">
 				<div class = "span11">
-					<h2>{{event.name}}</h2>		
+					<h2 ng-style ="mystyle" ng-bind-template = "{{event.name }} "></h2> <!-- Using Angular Directive and here we can write multiple expression as well -->
 				</div><!-- end span11 -->
 			</div><!-- end row -->
-		
+			<h2 ng-show="boolValue" > Welcome to AT-15 Event Registration</h2>
+			<h2 ng-hide="boolValue">Hide this</h2>
+
+
 			<div class = "row">
 				<div class = "span3">
 					<div><strong>Date: </strong>{{event.date}}</div>
@@ -70,13 +75,7 @@
 			
 			<h3>Sessions</h3>
 			<ul class="thumbnails">
-				<li ng-repeat="session in event.sessions">
-
-
-
-
-
-
+				<li ng-repeat="session in event.sessions | orderBy:sortorder">
 					<div class = "row session">
 						<div class="span0 well votingWidget">
 							<div class="votingButton" ng-click = "upVoteSession(session)">
@@ -105,18 +104,18 @@
 								<dt>Details: </dt>
 								<dd>{{session.abstract}}</dd>
 							</dl>
-						</div><!-- end well col-md-9 -->
-					</div><!-- end row session -->
+						</div>
+					</div>
 				</li>
 			</ul>
 
 
-		</div><!-- end EventController -->
+		</div>
 
 
 <!-- End Angular Stuff -->
 
-	</div><!-- end container -->
+	</div>
 
 
 

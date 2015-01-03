@@ -2,6 +2,10 @@
 
 eventsApp.controller('EventController',
 	function EventController($scope) {
+		$scope.boolValue = true;
+		$scope.mystyle = {color:'blue'};
+
+		$scope.sortorder = '-upVoteCount';
 
 		$scope.event = {
 			name: "AatmTrisha'15",
@@ -14,6 +18,7 @@ eventsApp.controller('EventController',
 				zipcode: '560085'
 			},
 			imageURL: 'img/AatmTrisha.png',
+
 
 			sessions: [
 				{
