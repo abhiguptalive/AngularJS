@@ -4,36 +4,36 @@ eventsApp.controller('EventController',
 	function EventController($scope) {
 		
 		$scope.event = {
-			name: 'Angular Learning',
-			date: '09/12/2014',
-			time: '10:30am',
+			name: "AatmTrisha'15",
+			date: '13-14 February 2015',
+			time: '8:30am',
 			location: {
-				address: 'Bangalore',
+				address: 'PES University',
 				city: 'Bangalore',
-				state: 'Bangalore',
+				state: 'Karnataka',
 				zipcode: '560085'
 			},
 			imageURL: 'img/AatmTrisha.png',
 			sessions: [
 				{
-					name: 'Javascript Basics',
-					creatorName: 'Abishek ',
-					duration: '1 hr',
-					level: 'Intermediate and Advanced',
+					name: 'AT got Talent ',
+					creatorName: ' Abhishek ',
+					duration: '3 hr',
+					level: 'Competition',
 					abstract: 'In this session...'
 				},
 				{
-					name: 'Python Basics',
-					creatorName: 'Abhishek',
-					duration: '30 min',
-					level: 'Introductory',
-					abstract: 'In this session...'
-				},
-				{
-					name: 'JQuery',
+					name: ' Pitch Please',
 					creatorName: 'Abhishek',
 					duration: '2 hr',
-					level: 'Intermediate',
+					level: 'Competition',
+					abstract: 'In this session...'
+				},
+				{
+					name: 'Paisa Vassool',
+					creatorName: 'Abhishek',
+					duration: '2 hr',
+					level: 'Entertainment',
 					abstract: 'In this session...'
 				}
 			]

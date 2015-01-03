@@ -8,13 +8,15 @@
     
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href = "css/app.css" rel = "stylesheet">
 	<!-- Start JS library calls -->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="lib/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 		
-	<!-- ANGULAR and underscore -->	
+	<!-- ANGULAR and underscore -->
+	<script src = "lib/underscore-1.4.4.min.js"></script>
 	<script src="lib/angular/angular.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/controllers/EventController.js"></script>
@@ -26,75 +28,38 @@
 	<div class = "container">
 
 <!-- Begin Navigation -->		
-		<nav class="navbar navbar-default" role="navigation">
-			<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">Angular Event Reg</a>
-				</div>
+		<div class="navbar">
+			<div class="navbar-inner">
+				<ul>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="EventDetails.html">Event Details</a></li>
-						<li><a href="#">Link</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Separated link</a></li>
-								<li class="divider"></li>
-								<li><a href="#">One more separated link</a></li>
-							</ul>
-						</li>
-					</ul>
 
-					<ul class="nav navbar-nav navbar-right">
-						<form class="navbar-form navbar-left" role="search">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Search">
-							</div>
-							<button type="submit" class="btn btn-default">Go</button>
-						</form>
-					</ul>
-				</div><!-- /.navbar-collapse -->
+			</ul>
 			</div><!-- /.container-fluid -->
-		</nav>
+		</div>
+
 <!-- End Navigation -->
 			
 <!-- Begin Angular Stuff -->		
 		<div ng-controller="EventController">
 			<img ng-src = "{{event.imageURL}}"/>
 			<div class = "row">
-				<div class = "col-md-11">
+				<div class = "span11">
 					<h2>{{event.name}}</h2>		
 				</div><!-- end span11 -->
 			</div><!-- end row -->
 		
 			<div class = "row">
-				<div class = "col-md-3">
-					<div>
-						<strong>Date: </strong>{{event.date}}
-					</div>
-					<div>
-						<strong>Time: </strong>{{event.time}}
-					</div>
+				<div class = "span3">
+					<div><strong>Date: </strong>{{event.date}}</div>
+					<div><strong>Time: </strong>{{event.time}}</div>
+
 				</div><!-- end span3 -->
 									
-				<div class = "col-md-4">		
+				<div class = "span4">
 					<address>
 						<strong>Address:</strong><br/>
 						{{event.location.address}}<br/>
-						{{event.location.city}}, {{event.location.state}}  {{event.location.zipcode}}		
+						{{event.location.city}}, {{event.location.state}} {{event.location.zipcode}}
 					</address>
 				</div><!-- end span4 -->
 			</div><!-- end row -->
